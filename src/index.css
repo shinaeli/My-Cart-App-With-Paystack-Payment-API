@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.products {
+  border: 1px solid greenyellow;
+  padding: 20px;
+}
+
+.product {
+  width: 95%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.close-btn {
+  width: 20px;
+  height: 20px;
+  margin: 3px 10px;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.item-description h2 {
+  color:aqua;
+  font-size: 1.5rem;
+}
+
+.item-description p {
+  color: gray;
+  font-size: 1.2rem;
+  margin: 10px 0px;
+}
+
+.counter p {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.flexed-price {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexed-price h4 {
+  width: 30%;
+}
+
+.counter {
+  width: 60%;
+  border: 1px solid #a8e1f8;
+}
+
+.increment, .decrement {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+}
+
+.total-cost {
+  border: solid #000;
+  border-width: 5px 0px 0px 0px;
+}
+
+.discount, .actual-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.payment {
+  width: 40%;
+  border: 1px solid orange;
+  padding: 20px;
+}
+
+.payment h1, .products h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.full-name, .phone, .email, .amount {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #ff09ad;
+}
+
+label {
+  display: block;
+  margin: 10px 0px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+}
+
+.item-img {
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.empty-cart {
+  padding: 20px;
+}
+
+.empty-cart h1 {
+  text-align: center;
+}
+
+.show-error {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.form-button {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  border: none;
+}
+
+.paystack-button {
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  background-color: blueviolet;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 3px;
+}
+
+@media(min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .payment {
+    width: 100%;
+  }
+
+  .item-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
