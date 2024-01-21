@@ -12,14 +12,14 @@ body {
   width: 90%;
   margin: 10px auto;
   padding: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .products {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   padding: 20px;
 }
 
@@ -71,7 +71,7 @@ body {
 
 .counter {
   width: 60%;
-  border: 1px solid #a8e1f8;
+  /* border: 1px solid #a8e1f8; */
 }
 
 .increment, .decrement {
@@ -94,7 +94,7 @@ body {
 
 .payment {
   width: 40%;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   padding: 20px;
 }
 
@@ -106,7 +106,7 @@ body {
 .full-name, .phone, .email, .amount {
   width: 90%;
   margin: 20px auto;
-  border: 1px solid #ff09ad;
+  /* border: 1px solid #ff09ad; */
 }
 
 label {

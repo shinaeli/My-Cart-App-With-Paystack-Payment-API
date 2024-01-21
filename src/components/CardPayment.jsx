@@ -12,7 +12,7 @@ const CardPayment = () => {
     reference: (new Date()).getTime().toString(),
     email: details.email,
     amount: Math.ceil(totalCost - (0.08 * totalCost)) * 100, //Amount is in the country's lowest currency. E.g Kobo, so 20000 kobo = N200
-    publicKey: "pk_test_62308aac2d50585ba1338d45e6631b8068b18bab",
+    publicKey: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY,
   };
 
   const componentProps = {
