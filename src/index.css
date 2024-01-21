@@ -183,6 +183,10 @@ img {
     width: 100px;
     height: 100px;
   }
+
+  .flexed-price {
+    width: 100%;
+  }
 }
 
 
